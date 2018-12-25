@@ -1,0 +1,383 @@
+# Created at 2018-12-22T20:50:03.646
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+
+# Created at 2018-12-22T20:50:03.658
+Unexpected IOException with stream: 20:50:03.657 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/Users/amankapoor/Documents/AmanKapoor_BookStore/bookstore/target/classes/com/example/bookstore/BookstoreApplication.class]
+
+
+# Created at 2018-12-22T20:50:03.661
+Unexpected IOException with stream: 20:50:03.660 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.bookstore.BookstoreApplication for test class com.example.bookstore.BookstoreApplicationTests
+
+
+# Created at 2018-12-22T20:50:03.860
+Unexpected IOException with stream: 20:50:03.859 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.example.bookstore.BookstoreApplicationTests]: using defaults.
+
+
+# Created at 2018-12-22T20:50:03.862
+Unexpected IOException with stream: 20:50:03.861 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+
+
+# Created at 2018-12-22T20:50:03.894
+Unexpected IOException with stream: 20:50:03.894 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6cce16f4, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7efaad5a, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@291a7e3c, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@ca30bc1, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1046d517, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3b7d3a38, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@416c58f5, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5505ae1a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@73cd37c0, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@21337f7b, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2bb3058, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7a362b6b]
+
+
+# Created at 2018-12-22T20:50:03.898
+Unexpected IOException with stream: 20:50:03.898 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.example.bookstore.BookstoreApplicationTests]
+
+
+# Created at 2018-12-22T20:50:03.900
+Unexpected IOException with stream: 20:50:03.899 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.example.bookstore.BookstoreApplicationTests]
+
+
+# Created at 2018-12-22T20:50:03.903
+Unexpected IOException with stream: 20:50:03.902 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.example.bookstore.BookstoreApplicationTests]
+
+
+# Created at 2018-12-22T20:50:03.904
+Unexpected IOException with stream: 20:50:03.903 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.example.bookstore.BookstoreApplicationTests]
+
+
+# Created at 2018-12-22T20:50:03.906
+Unexpected IOException with stream: 20:50:03.905 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.example.bookstore.BookstoreApplicationTests]
+
+
+# Created at 2018-12-22T20:50:03.907
+Unexpected IOException with stream: 20:50:03.906 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.example.bookstore.BookstoreApplicationTests]
+
+
+# Created at 2018-12-22T20:50:03.917
+Unexpected IOException with stream: 20:50:03.916 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@39de3d36 testClass = BookstoreApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@6ce86ce1 testClass = BookstoreApplicationTests, locations = '{}', classes = '{class com.example.bookstore.BookstoreApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@c88a337, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@1de76cc7, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@550dbc7a, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@59505b48], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+
+
+# Created at 2018-12-22T20:50:03.918
+Unexpected IOException with stream: 20:50:03.918 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.example.bookstore.BookstoreApplicationTests]
+
+
+# Created at 2018-12-22T20:50:03.919
+Unexpected IOException with stream: 20:50:03.919 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.example.bookstore.BookstoreApplicationTests]
+
+
+# Created at 2018-12-22T20:50:03.951
+Unexpected IOException with stream: 20:50:03.951 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+
+
+# Created at 2018-12-22T20:50:04.506
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-22T20:50:04.507
+Unexpected IOException with stream:   .   ____          _            __ _ _
+
+
+# Created at 2018-12-22T20:50:04.509
+Unexpected IOException with stream:  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+
+
+# Created at 2018-12-22T20:50:04.510
+Unexpected IOException with stream: ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+
+
+# Created at 2018-12-22T20:50:04.511
+Unexpected IOException with stream:  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+
+
+# Created at 2018-12-22T20:50:04.512
+Unexpected IOException with stream:   '  |____| .__|_| |_|_| |_\__, | / / / /
+
+
+# Created at 2018-12-22T20:50:04.513
+Unexpected IOException with stream:  =========|_|==============|___/=/_/_/_/
+
+
+# Created at 2018-12-22T20:50:04.516
+Unexpected IOException with stream:  :: Spring Boot ::        (v2.1.1.RELEASE)
+
+
+# Created at 2018-12-22T20:50:04.517
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-22T20:50:04.683
+Unexpected IOException with stream: 2018-12-22 20:50:04.681  INFO 1070 --- [           main] c.e.bookstore.BookstoreApplicationTests  : Starting BookstoreApplicationTests on MacBook-Air.local with PID 1070 (started by amankapoor in /Users/amankapoor/Documents/AmanKapoor_BookStore/bookstore)
+
+
+# Created at 2018-12-22T20:50:04.685
+Unexpected IOException with stream: 2018-12-22 20:50:04.684  INFO 1070 --- [           main] c.e.bookstore.BookstoreApplicationTests  : No active profile set, falling back to default profiles: default
+
+
+# Created at 2018-12-22T20:50:06.033
+Unexpected IOException with stream: 2018-12-22 20:50:06.030  INFO 1070 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+
+
+# Created at 2018-12-22T20:50:06.168
+Unexpected IOException with stream: 2018-12-22 20:50:06.167  INFO 1070 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 122ms. Found 2 repository interfaces.
+
+
+# Created at 2018-12-22T20:50:07.328
+Unexpected IOException with stream: 2018-12-22 20:50:07.328  INFO 1070 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+
+
+# Created at 2018-12-22T20:50:07.627
+Unexpected IOException with stream: 2018-12-22 20:50:07.627  INFO 1070 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+
+
+# Created at 2018-12-22T20:50:07.780
+Unexpected IOException with stream: 2018-12-22 20:50:07.779  INFO 1070 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+
+
+# Created at 2018-12-22T20:50:07.936
+Unexpected IOException with stream: 2018-12-22 20:50:07.933  INFO 1070 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+
+
+# Created at 2018-12-22T20:50:07.939
+Unexpected IOException with stream: 2018-12-22 20:50:07.939  INFO 1070 --- [           main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+
+
+# Created at 2018-12-22T20:50:08.238
+Unexpected IOException with stream: 2018-12-22 20:50:08.237  INFO 1070 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+
+
+# Created at 2018-12-22T20:50:08.520
+Unexpected IOException with stream: 2018-12-22 20:50:08.520  INFO 1070 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+
+
+# Created at 2018-12-22T20:50:09.938
+Unexpected IOException with stream: Hibernate: create table book_entity (isbn integer not null, author varchar(255), price decimal(19,2), title varchar(255), primary key (isbn))
+
+
+# Created at 2018-12-22T20:50:09.949
+Unexpected IOException with stream: Hibernate: create table product_entity (product_id integer not null, isbn integer, sold boolean, primary key (product_id))
+
+
+# Created at 2018-12-22T20:50:09.953
+Unexpected IOException with stream: Hibernate: create sequence hibernate_sequence start with 1 increment by 1
+
+
+# Created at 2018-12-22T20:50:09.965
+Unexpected IOException with stream: 2018-12-22 20:50:09.964  INFO 1070 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+
+
+# Created at 2018-12-22T20:50:10.692
+Unexpected IOException with stream: 2018-12-22 20:50:10.691  INFO 1070 --- [           main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+
+
+# Created at 2018-12-22T20:50:11.889
+Unexpected IOException with stream: 2018-12-22 20:50:11.889  INFO 1070 --- [           main] c.e.bookstore.BookstoreApplicationTests  : Started BookstoreApplicationTests in 7.916 seconds (JVM running for 9.885)
+
+
+# Created at 2018-12-22T20:50:11.933
+Unexpected IOException: 5,1,com.example.bookstore.BookstoreApplicationTests,getMediaCoverage(com.example.bookstore.BookstoreApplicationTests),null,null,null
+
+
+# Created at 2018-12-22T20:50:13.180
+Unexpected IOException: 6,1,com.example.bookstore.BookstoreApplicationTests,getMediaCoverage(com.example.bookstore.BookstoreApplicationTests),null,null,null
+
+
+# Created at 2018-12-22T20:50:13.182
+Unexpected IOException: 5,1,com.example.bookstore.BookstoreApplicationTests,searchBookByAuthorNameTest(com.example.bookstore.BookstoreApplicationTests),null,null,null
+
+
+# Created at 2018-12-22T20:50:13.243
+Unexpected IOException with stream: Hibernate: select bookentity0_.isbn as isbn1_0_, bookentity0_.author as author2_0_, bookentity0_.price as price3_0_, bookentity0_.title as title4_0_ from book_entity bookentity0_ where bookentity0_.isbn=?
+
+
+# Created at 2018-12-22T20:50:13.273
+Unexpected IOException with stream: Hibernate: select bookentity0_.isbn as isbn1_0_0_, bookentity0_.author as author2_0_0_, bookentity0_.price as price3_0_0_, bookentity0_.title as title4_0_0_ from book_entity bookentity0_ where bookentity0_.isbn=?
+
+
+# Created at 2018-12-22T20:50:13.307
+Unexpected IOException with stream: Hibernate: call next value for hibernate_sequence
+
+
+# Created at 2018-12-22T20:50:13.334
+Unexpected IOException with stream: Hibernate: insert into book_entity (author, price, title, isbn) values (?, ?, ?, ?)
+
+
+# Created at 2018-12-22T20:50:13.339
+Unexpected IOException with stream: Hibernate: insert into product_entity (isbn, sold, product_id) values (?, ?, ?)
+
+
+# Created at 2018-12-22T20:50:13.347
+Unexpected IOException with stream: Hibernate: select bookentity0_.isbn as isbn1_0_, bookentity0_.author as author2_0_, bookentity0_.price as price3_0_, bookentity0_.title as title4_0_ from book_entity bookentity0_ where bookentity0_.isbn=?
+
+
+# Created at 2018-12-22T20:50:13.356
+Unexpected IOException with stream: Hibernate: call next value for hibernate_sequence
+
+
+# Created at 2018-12-22T20:50:13.357
+Unexpected IOException with stream: Hibernate: insert into product_entity (isbn, sold, product_id) values (?, ?, ?)
+
+
+# Created at 2018-12-22T20:50:13.360
+Unexpected IOException with stream: Hibernate: select bookentity0_.isbn as isbn1_0_, bookentity0_.author as author2_0_, bookentity0_.price as price3_0_, bookentity0_.title as title4_0_ from book_entity bookentity0_ where bookentity0_.isbn=?
+
+
+# Created at 2018-12-22T20:50:13.362
+Unexpected IOException with stream: Hibernate: select bookentity0_.isbn as isbn1_0_0_, bookentity0_.author as author2_0_0_, bookentity0_.price as price3_0_0_, bookentity0_.title as title4_0_0_ from book_entity bookentity0_ where bookentity0_.isbn=?
+
+
+# Created at 2018-12-22T20:50:13.364
+Unexpected IOException with stream: Hibernate: call next value for hibernate_sequence
+
+
+# Created at 2018-12-22T20:50:13.367
+Unexpected IOException with stream: Hibernate: insert into book_entity (author, price, title, isbn) values (?, ?, ?, ?)
+
+
+# Created at 2018-12-22T20:50:13.369
+Unexpected IOException with stream: Hibernate: insert into product_entity (isbn, sold, product_id) values (?, ?, ?)
+
+
+# Created at 2018-12-22T20:50:13.373
+Unexpected IOException with stream: Hibernate: select bookentity0_.isbn as isbn1_0_, bookentity0_.author as author2_0_, bookentity0_.price as price3_0_, bookentity0_.title as title4_0_ from book_entity bookentity0_ where bookentity0_.isbn=?
+
+
+# Created at 2018-12-22T20:50:13.375
+Unexpected IOException with stream: Hibernate: select bookentity0_.isbn as isbn1_0_0_, bookentity0_.author as author2_0_0_, bookentity0_.price as price3_0_0_, bookentity0_.title as title4_0_0_ from book_entity bookentity0_ where bookentity0_.isbn=?
+
+
+# Created at 2018-12-22T20:50:13.378
+Unexpected IOException with stream: Hibernate: call next value for hibernate_sequence
+
+
+# Created at 2018-12-22T20:50:13.380
+Unexpected IOException with stream: Hibernate: insert into book_entity (author, price, title, isbn) values (?, ?, ?, ?)
+
+
+# Created at 2018-12-22T20:50:13.381
+Unexpected IOException with stream: Hibernate: insert into product_entity (isbn, sold, product_id) values (?, ?, ?)
+
+
+# Created at 2018-12-22T20:50:13.438
+Unexpected IOException with stream: Hibernate: select bookentity0_.isbn as isbn1_0_, bookentity0_.author as author2_0_, bookentity0_.price as price3_0_, bookentity0_.title as title4_0_ from book_entity bookentity0_ where bookentity0_.author like ?
+
+
+# Created at 2018-12-22T20:50:13.443
+Unexpected IOException with stream: Hibernate: select bookentity0_.isbn as isbn1_0_, bookentity0_.author as author2_0_, bookentity0_.price as price3_0_, bookentity0_.title as title4_0_ from book_entity bookentity0_ where bookentity0_.author like ?
+
+
+# Created at 2018-12-22T20:50:13.448
+Unexpected IOException: 6,1,com.example.bookstore.BookstoreApplicationTests,searchBookByAuthorNameTest(com.example.bookstore.BookstoreApplicationTests),null,null,null
+
+
+# Created at 2018-12-22T20:50:13.449
+Unexpected IOException: 5,1,com.example.bookstore.BookstoreApplicationTests,searchBookByISBNTest(com.example.bookstore.BookstoreApplicationTests),null,null,null
+
+
+# Created at 2018-12-22T20:50:13.453
+Unexpected IOException with stream: Hibernate: select bookentity0_.isbn as isbn1_0_, bookentity0_.author as author2_0_, bookentity0_.price as price3_0_, bookentity0_.title as title4_0_ from book_entity bookentity0_ where bookentity0_.isbn=?
+
+
+# Created at 2018-12-22T20:50:13.456
+Unexpected IOException with stream: Hibernate: select bookentity0_.isbn as isbn1_0_0_, bookentity0_.author as author2_0_0_, bookentity0_.price as price3_0_0_, bookentity0_.title as title4_0_0_ from book_entity bookentity0_ where bookentity0_.isbn=?
+
+
+# Created at 2018-12-22T20:50:13.458
+Unexpected IOException with stream: Hibernate: call next value for hibernate_sequence
+
+
+# Created at 2018-12-22T20:50:13.459
+Unexpected IOException with stream: Hibernate: insert into book_entity (author, price, title, isbn) values (?, ?, ?, ?)
+
+
+# Created at 2018-12-22T20:50:13.461
+Unexpected IOException with stream: Hibernate: insert into product_entity (isbn, sold, product_id) values (?, ?, ?)
+
+
+# Created at 2018-12-22T20:50:13.463
+Unexpected IOException with stream: Hibernate: select bookentity0_.isbn as isbn1_0_, bookentity0_.author as author2_0_, bookentity0_.price as price3_0_, bookentity0_.title as title4_0_ from book_entity bookentity0_ where bookentity0_.isbn=?
+
+
+# Created at 2018-12-22T20:50:13.466
+Unexpected IOException: 6,1,com.example.bookstore.BookstoreApplicationTests,searchBookByISBNTest(com.example.bookstore.BookstoreApplicationTests),null,null,null
+
+
+# Created at 2018-12-22T20:50:13.469
+Unexpected IOException: 5,1,com.example.bookstore.BookstoreApplicationTests,buyBookTest(com.example.bookstore.BookstoreApplicationTests),null,null,null
+
+
+# Created at 2018-12-22T20:50:13.471
+Unexpected IOException with stream: Hibernate: select bookentity0_.isbn as isbn1_0_, bookentity0_.author as author2_0_, bookentity0_.price as price3_0_, bookentity0_.title as title4_0_ from book_entity bookentity0_ where bookentity0_.isbn=?
+
+
+# Created at 2018-12-22T20:50:13.474
+Unexpected IOException with stream: Hibernate: call next value for hibernate_sequence
+
+
+# Created at 2018-12-22T20:50:13.475
+Unexpected IOException with stream: Hibernate: insert into product_entity (isbn, sold, product_id) values (?, ?, ?)
+
+
+# Created at 2018-12-22T20:50:13.479
+Unexpected IOException with stream: Hibernate: select bookentity0_.isbn as isbn1_0_, bookentity0_.author as author2_0_, bookentity0_.price as price3_0_, bookentity0_.title as title4_0_ from book_entity bookentity0_ where bookentity0_.isbn=?
+
+
+# Created at 2018-12-22T20:50:13.481
+Unexpected IOException with stream: Hibernate: call next value for hibernate_sequence
+
+
+# Created at 2018-12-22T20:50:13.482
+Unexpected IOException with stream: Hibernate: insert into product_entity (isbn, sold, product_id) values (?, ?, ?)
+
+
+# Created at 2018-12-22T20:50:13.489
+Unexpected IOException with stream: Hibernate: select productent0_.product_id as product_1_1_, productent0_.isbn as isbn2_1_, productent0_.sold as sold3_1_ from product_entity productent0_ where productent0_.isbn=? and productent0_.sold='false' and rownum<2
+
+
+# Created at 2018-12-22T20:50:13.496
+Unexpected IOException with stream: Hibernate: update product_entity set isbn=?, sold=? where product_id=?
+
+
+# Created at 2018-12-22T20:50:13.503
+Unexpected IOException with stream: Hibernate: select productent0_.product_id as product_1_1_, productent0_.isbn as isbn2_1_, productent0_.sold as sold3_1_ from product_entity productent0_ where productent0_.isbn=? and productent0_.sold='false' and rownum<2
+
+
+# Created at 2018-12-22T20:50:13.506
+Unexpected IOException with stream: Hibernate: update product_entity set isbn=?, sold=? where product_id=?
+
+
+# Created at 2018-12-22T20:50:13.509
+Unexpected IOException: 6,1,com.example.bookstore.BookstoreApplicationTests,buyBookTest(com.example.bookstore.BookstoreApplicationTests),null,null,null
+
+
+# Created at 2018-12-22T20:50:13.511
+Unexpected IOException: 5,1,com.example.bookstore.BookstoreApplicationTests,addBookTest(com.example.bookstore.BookstoreApplicationTests),null,null,null
+
+
+# Created at 2018-12-22T20:50:13.516
+Unexpected IOException with stream: Hibernate: select bookentity0_.isbn as isbn1_0_, bookentity0_.author as author2_0_, bookentity0_.price as price3_0_, bookentity0_.title as title4_0_ from book_entity bookentity0_ where bookentity0_.isbn=?
+
+
+# Created at 2018-12-22T20:50:13.518
+Unexpected IOException with stream: Hibernate: select bookentity0_.isbn as isbn1_0_0_, bookentity0_.author as author2_0_0_, bookentity0_.price as price3_0_0_, bookentity0_.title as title4_0_0_ from book_entity bookentity0_ where bookentity0_.isbn=?
+
+
+# Created at 2018-12-22T20:50:13.520
+Unexpected IOException with stream: Hibernate: call next value for hibernate_sequence
+
+
+# Created at 2018-12-22T20:50:13.522
+Unexpected IOException with stream: Hibernate: insert into book_entity (author, price, title, isbn) values (?, ?, ?, ?)
+
+
+# Created at 2018-12-22T20:50:13.524
+Unexpected IOException with stream: Hibernate: insert into product_entity (isbn, sold, product_id) values (?, ?, ?)
+
+
+# Created at 2018-12-22T20:50:13.527
+Unexpected IOException: 6,1,com.example.bookstore.BookstoreApplicationTests,addBookTest(com.example.bookstore.BookstoreApplicationTests),null,null,null
+
+
+# Created at 2018-12-22T20:50:13.528
+Unexpected IOException: 2,1,org.apache.maven.surefire.junit4.JUnit4Provider,com.example.bookstore.BookstoreApplicationTests,null,null,null
+
+
