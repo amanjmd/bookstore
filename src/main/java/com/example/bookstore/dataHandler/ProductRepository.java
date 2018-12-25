@@ -6,6 +6,6 @@ import org.springframework.data.repository.query.Param;
 
 public interface ProductRepository extends JpaRepository<ProductEntity, Integer> {
 
-	@Query(value="select p from ProductEntity p where p.isbn = :isbn and sold='false' and rownum < 2")
+	@Query(value="select * from Product_Entity e where e.product_Id=(select min(p.product_id) from Product_Entity p where p.sold='false' group by p.isbn having p.isbn=:isbn)",nativeQuery=true)
 	ProductEntity findAvailableProductForIsbn(@Param("isbn") Integer pIsbn);
 }

@@ -14,13 +14,14 @@ import com.example.bookstore.businessHandler.ProductBO;
 public class ProductEntity {
 
 	@Id
+	@Column(name="product_id")
 	@GeneratedValue
 	Integer ProductId;
 	
-	@Column
+	@Column(name="isbn")
 	Integer isbn;
 	
-	@Column
+	@Column(name="sold")
 	boolean sold;
 
 	public Integer getProductId() {
